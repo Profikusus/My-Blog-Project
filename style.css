@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    position: sticky;
+    background-color: white;
+    top: 0;
+    z-index: 20;
+}
+.header-row{
+    height: 100px;
+}
+.home-slider{
+    background-image: url(./images/home_employment_slider_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #3a454d;
+    height: 615px;
+}
+.logo, .menu{
+    display: flex;
+    height: 100px;
+    cursor: pointer;
+}
+.menu{
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    justify-content: flex-start;
+    align-items: center;
+}
+.btn-menu{
+    padding: 20px;
+    font-size: 14px;
+    color: #8c9299;
+    border: 1px solid transparent;
+}
+.btn-menu:hover{
+    color: black;
+    border: 1px solid wheat;
+    background-color: wheat;
+    border-radius: 5px;
+}
+.content-home-slider{
+    font-size: 55px;
+    color: rgba(60, 70, 83, 1);
+    padding-bottom: 30px;
+}
+.btn-home{
+    display: flex;
+}
+.row-slider{
+    align-items: center;
+    height: 615px;
+}
+.btn-slider{
+    width: 240px;
+    height: 60px;
+    margin: 30px 10px;
+    border:none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+
+}
+.btn-looking-for-job{
+    background-color: rgb(250, 90, 96);
+}
+.btn-want-give-job{
+    background-color: rgb(60, 70, 83);
+}
+
+.btn-want-give-job:hover{
+    background-color: black;
+}
+.btn-looking-for-job:hover{
+    background-color: red;
+}
