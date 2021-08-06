@@ -49,6 +49,7 @@ body{
     font-size: 55px;
     color: rgba(60, 70, 83, 1);
     padding-bottom: 30px;
+    line-height: 65px;
 }
 .btn-home{
     display: flex;
@@ -80,4 +81,10 @@ body{
 }
 .btn-looking-for-job:hover{
     background-color: red;
+}
+.row-select-category{
+    border: 1px white;
+    height: 293px;
+    line-height: 35px;
+    font-size: 25px;
 }
