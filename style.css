@@ -91,6 +91,9 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center ;
+    margin: -50px 0 0;
+    background-color: white;
+    border: 1px solid white;
 }
 .select-category{
     display: flex;
@@ -131,4 +134,31 @@ body{
 .column-select-category a {
     text-decoration: none;
     color: #3C4653;
+}
+.main-color-block{
+    background-color: #303945;
+    height: 450px;
+}
+.main-content{
+    background-image: url(./images/home_employment_pic2.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding: 0 0 0 110px;
+    background-position: 0 10px;
+    height: 105px;
+    display: flex;
+}
+.btn-select-category:active{
+    color:black;
+}
+.theme-color{
+    color: red;
+    font-size: 35px;
+    line-height: 45px;
+
+}
+.size-text{
+    font-size: 35px;
+    line-height: 45px;
+    color: white;
 }
