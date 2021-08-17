@@ -79,7 +79,7 @@ body{
 .btn-want-give-job:hover{
     background-color: black;
 }
-.btn-looking-for-job:hover{
+.btn-looking-for-job:hover, .btn-current-cv:hover{
     background-color: red;
 }
 .row-select-category{
@@ -147,6 +147,7 @@ body{
     background-position: 0 10px;
     height: 105px;
     display: flex;
+    justify-content: space-around;
 }
 .btn-select-category:active{
     color:black;
@@ -161,4 +162,154 @@ body{
     font-size: 35px;
     line-height: 45px;
     color: white;
+}
+.text-right{
+    color: red;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+}
+.text-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.position-row{
+    height: 1206px;
+}
+.indent{
+    margin: 0 0 15px;
+    color: #868d95;
+}
+.padding-text{
+    padding-top: 50px;
+}
+.content-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.img-btn-arrow{
+    background-image: url(./images/arrow_one.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 30px;
+    text-decoration: none;
+    color: red;
+}
+.current-cv{
+    background-color: black;
+    background-image: url(./images/home_employment_columnbg1.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px 50px 65px;
+}
+.color-h{
+    color: #fffffa;
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 300;
+    letter-spacing: 0px;
+}
+.btn-current-cv{
+    background-color: rgb(250, 90, 96);
+    border: 1px solid red;
+    color: white;
+    border-radius: 5px;
+    width: 168px;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.color-p{
+    color: #9eaebf;
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+.check-out-our{
+    background-image: url(./images/home_employment_columnbg2.jpg);
+    height: 250px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-check-out-our{
+    background-image: url(./images/home_employment_pic8.png);
+    width: 86px;
+    height: 86px;
+}
+.check-out-our h1 {
+    padding-right: 50px;
+    color: white;
+    font-size: 25px;
+    line-height: 35px;
+}
+.article-content{
+    height: 475px;
+    margin: -100px 0 0;
+    border-radius: 5px;
+    border: 0.5px solid #e7eaf0;
+}
+.article-content img{
+    width: 100%;
+    height: 255px;
+    transition: 1s;
+}
+.article-content a{
+    font-size: 21px;
+    line-height: 25px;
+    text-decoration: none;
+    color: #3c4653;
+    font-size: 21px;
+    line-height: 25px;
+    transition: 0.5s;
+    
+}
+.article-content img:hover{
+    transform: scale(1.2);
+}
+.article-content a:hover{
+    transform: scale(1.1);
+}
+.article-content-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 215px;
+}
+.article-content-text p{
+    color: #ff5a60;
+}
+.secretary-logistics-company{
+    margin-top: 25px;
+}
+.help-elderly{
+    margin-top: -30px;
+}
+.carpenter-company{
+    margin-top: 25px;
+}
+.text-content-end{
+    text-align: center;
+    height: 90px;
+    line-height: 35px;
+}
+.text-content-end h1{
+    font-size: 25px;
+}
+.text-content-end p{
+    color:#a9b2bf;
+    font-size:17px;
 }
